@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, Helvetica, san-serif;
+  font-size: 18px;
+  background-color: #fffbf0;
+  margin: 0;
+}
+
+header {
+  display: block;
+  background-color: #ffca75;
+  color: black;
+  text-align: center;
+  height: 100px;
+  padding-top: 20px;
+}
+
+#title {
+  font-size: 48px;
+  margin: 0px auto 6px auto;
+}
+
+#title-caption {
+  font-size: 18px;
+}
+
+#img-div {
+  display: block;
+  background-color: white;
+  width: 30%;
+  padding: 30px;
+  margin: auto;
+}
+
+#image{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+#img-div figcaption{
+  text-align: center;
+  font-size: .9em;
+}
+
+#tribute-info {
+  margin: 50px 50px;
+  font-weight: bold;
+  line-height: 1.0em;
+}
+
+#achievements {
+  margin: auto 50px;
+  line-height: 2.0em;
+}
+
+#achievements h2 {
+  text-decoration: underline;
+}
+
+table {
+  background-color: white;
+}
+
+#NBA-records table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+#NBA-records th, td {
+  padding: 0px 10px;
+}
+
+.category{
+  width: 200px;
+}
+
+.rank{
+  width: 80px;
+}
+
+.value{
+  width: 100px;
+}
+
+#records-table {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+#playoffs-season {
+  margin-left: 80px;
+}
+
+@media(max-width: 900px) {
+  #records-table {
+    display: block;
+    margin: auto;
+  }
+  
+  #playoffs-season {
+    margin: auto;
+  }
+}
+
+#video{
+  display: block;
+  margin: auto;
+}
+
+@media(max-width: 1000px) {
+  #video {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+blockquote {
+  font-style: italic;
+  line-height: .6;
+  margin: auto;
+}
+
+blockquote p {
+  text-align: center;
+}
+
+blockquote cite {
+  margin: auto;
+}
+
+#moreinfo {
+  text-align: center;
+  font-weight: bold;
+  }
